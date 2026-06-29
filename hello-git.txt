@@ -1,1 +1,1 @@
-Meu primeiro repositório de estudo de Git.
+Arquivo atualizado na main.
