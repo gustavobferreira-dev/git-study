@@ -1,0 +1,38 @@
+# Compiled objects
+*.o
+*.obj
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Build directories
+build/
+dist/
+bin/
+output/
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.log

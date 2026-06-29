@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "d:/Projetos/git-study/logic-banking-systems",
-      "program": "d:/Projetos/git-study/logic-banking-systems/build/Debug/outDebug",
+      "program": "d:/Projetos/git-study/logic-banking-systems/output/account.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

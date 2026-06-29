@@ -1,0 +1,43 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Compilar Projeto C++",
+			"command": "C:\\MinGW\\bin\\g++.exe",
+			"args": [
+				"-Wall",
+				"-Wextra",
+				"-g3",
+				"${fileDirname}\\*.cpp",
+				"-o",
+				"${fileDirname}\\output\\account.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+            },
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"type": "shell",
+			"label": "Executar Programa",
+			"command": "${fileDirname}\\output\\account.exe",
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"group": {
+				"kind": "test"
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "new"
+			}
+		}
+	]
+}
